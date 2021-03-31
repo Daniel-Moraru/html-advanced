@@ -1,0 +1,39 @@
+@import "variables";
+@import "helpers";
+@import "reset";
+body {
+    background-color: green;
+    color: $base-color
+}
+
+.box {
+    border: $base-border;
+}
+
+ul {
+    li {
+        a {
+            font-size: 30px;
+        }
+    }
+}
+
+.blog {
+    @include vertical-mid();
+}
+
+.artic {
+    @include vertical-mid();
+}
+
+.list1 {
+    @extend %flex-center;
+}
+
+.list2 {
+    @extend %flex-center;
+}
+
+.list3 {
+    @extend %flex-center;
+}
